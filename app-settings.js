@@ -3,7 +3,7 @@
         apiBaseUrl: function() {
             server_id = localStorage.getItem("HauserServerId");
             if (server_id == null) {
-                return "http://hauser-api-1.herokuapp.com/api/mobile/v1";
+                return "http://hauser-api-0.herokuapp.com/api/mobile/v1";
             } else {
                 return "http://hauser-api-" + server_id + ".herokuapp.com/api/mobile/v1";
             }
