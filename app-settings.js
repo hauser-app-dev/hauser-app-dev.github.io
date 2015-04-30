@@ -9,7 +9,6 @@
             }
 
         },
-        apiBaseUrl: "http://hauser-dev.herokuapp.com/api/mobile/v1",
         facebookAppId: "756810117749952",
         facebookAppName: "HauserAppDev",
         firebaseUrl: "https://hauser.firebaseio.com",
