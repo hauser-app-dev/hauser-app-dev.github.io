@@ -44,6 +44,7 @@
     "Pull_to_refresh": "Pull toaa refresh",
     "Reply_a_message": "Reply a message",
     "Reply": "Reply",
+    "Search": "Search",
     "Send_a_comment": "Send a comment",
     "Send_a_message": "Send a message",
     "Send": "Send",
