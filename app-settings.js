@@ -21,6 +21,6 @@
         // imagesCdnBaseUrl: "http://localhost:3000/images",
 
         rootUrlState: "menu.feed",
-        unauthorizedFallbackUrlState: "landing.login"
+        unauthorizedFallbackUrlState: "landing"
     }
 })();
