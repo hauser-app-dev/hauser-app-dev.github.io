@@ -63,6 +63,6 @@
     "to_send_messages_to_your_neighbors": "to send messages to your neighbors",
     "Verification_code": "Verification code",
     "Verify": "Verify",
-    "You_dont_have_any_booking.": "You don't have any booking.",
-    "You_dont_have_any_messages": "You don't have any messages."
+    "You_dont_have_any_booking": "You don't have any booking",
+    "You_dont_have_any_messages": "You don't have any messages"
 }
