@@ -1,27 +1,34 @@
 (function() {
     window.HauserAppSettings = {
-        apiBaseUrl: function() {
-            // server_id = localStorage.getItem("HauserServerId");
-            // if (server_id == null) {
-            //     return "https://hauser-api-0.herokuapp.com/api/mobile/v1";
-            // } else {
-            //     return "https://hauser-api-" + server_id + ".herokuapp.com/api/mobile/v1";
-            // }
-            return "http://hauser-backend-api-env-5uqm2mzix5.elasticbeanstalk.com/api/mobile/v1";
-
-        },
+        apiBaseUrl: "http://hauser-backend-api-env-5uqm2mzix5.elasticbeanstalk.com/api/mobile/v1",
         facebookAppId: "756810117749952",
         facebookAppName: "HauserAppDev",
         firebaseUrl: "https://hauser.firebaseio.com",
-        imagesCdnBaseUrl: "https://hauser-dev.herokuapp.com/images",
 
-        // apiBaseUrl: "http://localhost:3000/api/mobile/v1",
+        // apiBaseUrl: "http://10.0.1.20:3000/api/mobile/v1",
         // facebookAppId: "1555600084706545",
         // facebookAppName: "HauserDev",
         // firebaseUrl: "https://hauserdev.firebaseio.com",
-        // imagesCdnBaseUrl: "http://localhost:3000/images",
 
         rootUrlState: "menu.feed",
         unauthorizedFallbackUrlState: "landing"
     }
 })();
+
+// AWS.config.region = 'us-east-1';
+// AWS.config.credentials = new AWS.CognitoIdentityCredentials({
+//     IdentityPoolId: 'us-east-1:805a26ce-32d9-42ac-8827-56801e712b3b',
+// });
+
+// mobileAnalyticsClient = new AMA.Manager({
+//     appId: "4914e4e4e60b4001adba439c748e5b25"
+// });
+
+
+// touchCount: 0,
+//     recordTouchEvent: function(event) {
+//         console.log(this.mobileAnalyticsClient.recordEvent('customTouch', { 
+//             'screenName': 'main'}, {'touchCount': this.touchCount++ } ));
+//         console.log('Touch Event recorded');
+//     },
+//   mobileAnalyticsClient.submitEvents();
