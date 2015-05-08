@@ -1,12 +1,13 @@
 (function() {
     window.HauserAppSettings = {
         apiBaseUrl: function() {
-            server_id = localStorage.getItem("HauserServerId");
-            if (server_id == null) {
-                return "https://hauser-api-0.herokuapp.com/api/mobile/v1";
-            } else {
-                return "https://hauser-api-" + server_id + ".herokuapp.com/api/mobile/v1";
-            }
+            // server_id = localStorage.getItem("HauserServerId");
+            // if (server_id == null) {
+            //     return "https://hauser-api-0.herokuapp.com/api/mobile/v1";
+            // } else {
+            //     return "https://hauser-api-" + server_id + ".herokuapp.com/api/mobile/v1";
+            // }
+            return "http://hauser-backend-api-env-5uqm2mzix5.elasticbeanstalk.com/api/mobile/v1";
 
         },
         facebookAppId: "756810117749952",
