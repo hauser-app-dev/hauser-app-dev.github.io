@@ -11,7 +11,7 @@
         // firebaseUrl: "https://hauserdev.firebaseio.com",
 
         rootUrlState: "menu.feed",
-        unauthorizedFallbackUrlState: "landing"
+        unauthorizedFallbackUrlState: "landing.home"
     }
 })();
 
