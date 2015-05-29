@@ -5,17 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <link rel="stylesheet" href="assets/css/app.min.css" type="text/css">
+    <script src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
 </head>
 
 <body ng-app="hauser" class="platform-ios platform-cordova platform-webview" ng-controller="AppCtrl">
     <ion-nav-view></ion-nav-view>
     <!-- Need to place at the end to prevent appendChild error -->
     <div id='fb-root'></div>
-
+    <script src="cordova.js"></script>
     <script src="app-settings.js"></script>
     <script src="assets/js/libs.min.js"></script>
-    <script src="assets/js/ionic-core.js"></script>
-    <script src="assets/js/ionic-push.js"></script>
     <script src="assets/js/app.min.js"></script>
 </body>
 
