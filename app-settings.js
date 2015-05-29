@@ -1,6 +1,7 @@
 (function() {
     window.HauserAppSettings = {
         apiBaseUrl: "http://hauser-backend-api-env-5uqm2mzix5.elasticbeanstalk.com/api/mobile/v1",
+        // apiBaseUrl: "http://localhost:3000/api/mobile/v1",
         facebookAppId: "756810117749952",
         facebookAppName: "HauserAppDev",
         firebaseUrl: "https://hauser.firebaseio.com",
@@ -11,7 +12,8 @@
         // firebaseUrl: "https://hauserdev.firebaseio.com",
 
         rootUrlState: "menu.feed",
-        unauthorizedFallbackUrlState: "landing.home"
+        unauthorizedFallbackUrlState: "landing.login",
+        version: "1.0.10"
     }
 })();
 
