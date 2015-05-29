@@ -81,5 +81,8 @@
     "to_request_this_feature_or_try_our": "to request this feature or try our",
     "Request_this_feature": "Request this feature",
     "Try_our_demo": "Try our demo",
-    "House_Info": "House Info"
+    "House_Info": "House Info",
+    "HELP_FEEDBACK_TEXT":"Thank you for using Hauser app. We're more than happy to hear your feedback, compliments, complaints or ideas",
+    "Send_feedback": "Send feedback",
+    "Give_us_a_call": "Give us a call"
 }
